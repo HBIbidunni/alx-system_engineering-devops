@@ -1,0 +1,1 @@
+-e#!/bin/bash\nsu betty
