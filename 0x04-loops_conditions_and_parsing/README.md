@@ -9,11 +9,11 @@ Here, in this __ALX project__ the key learnings include:
 * How to use the `cut` command.
 * What are __files__ and other __comparison operators__ , and how to use them.
 
-## Project Requirements  :briefcase:
+## Project Requirements :briefcase:
 * All files will be interpreted on __Ubuntu 20.04 LTS__.
 * All files should end with a new line.
 * All Bash script files must be executable.
-* All Bash script must pass `Shellcheck` (__version 0.7.0__) without any error.
+* All Bash scripts must pass `Shellcheck` (__version 0.7.0__) without any error.
 * The first line of all  Bash scripts should be exactly __#!/usr/bin/env bash__.
 * The second line of all Bash scripts should be a comment explaining what the scripts are doing.
 
