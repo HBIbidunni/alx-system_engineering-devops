@@ -1,52 +1,58 @@
 # ALX Project: Web infrastructure design
 ------------
 
+This is a highly crucial ALX project which emphasizes the structure of a __Web infrastructure design__. Here, each tasks are to be explained with a diagram to show the relationship between servers,application servers, databases, application files, deomain names and DNS etc.
+
 ### Task 0:
 
-A lot of websites are powered by simple web infrastructure, a lot of time it is composed of a single server with a LAMP stack.
+A lot of websites are powered by simple web infrastructure, a lot of time it is composed of a single server with a __LAMP stack__.
 
-On a whiteboard, design a one server web infrastructure that hosts the website that is reachable via www.foobar.com. Start your explanation by having a user wanting to access your website.
+On a whiteboard, design a one server web infrastructure that hosts the website that is reachable via __www.foobar.com__. 
+
+Start your explanation by having a user wanting to access your website.
 
 Requirements:
 
 You must use:
-1 server
-1 web server (Nginx)
-1 application server
-1 application files (your code base)
-1 database (MySQL)
-1 domain name foobar.com configured with a www record that points to your server IP 8.8.8.8
-You must be able to explain some specifics about this infrastructure:
-What is a server
-What is the role of the domain name
-What type of DNS record www is in www.foobar.com
-What is the role of the web server
-What is the role of the application server
-What is the role of the database
-What is the server using to communicate with the computer of the user requesting the website
-You must be able to explain what the issues are with this infrastructure:
-SPOF
-Downtime when maintenance needed (like deploying new code web server needs to be restarted)
-Cannot scale if too much incoming traffic
-Please, remember that everything must be written in English to further your technical ability in a variety of settings.
+- 1 server
+- 1 web server (Nginx)
+- 1 application server
+- 1 application files (your code base)
+- 1 database (MySQL)
+- 1 domain name foobar.com configured with a www record that points to your server IP 8.8.8.8
+- You must be able to explain some specifics about this infrastructure:
+- What is a server
+- What is the role of the domain name
+- What type of DNS record www is in www.foobar.com
+- What is the role of the web server
+- What is the role of the application server
+- What is the role of the database
+- What is the server using to communicate with the computer of the user requesting the website
+- You must be able to explain what the issues are with this infrastructure:
+    a) SPOF
+    b)Downtime when maintenance needed (like deploying new code web server needs to be restarted)
+    c) Cannot scale if too much incoming traffic
+
 
 
 ### Task 0 solved:
 
-To design a one-server web infrastructure that hosts the website reachable via www.foobar.com, it is important to  break down the components and their roles, starting with the user's request to access the website.
+To design a __one-server web infrastructure__ that hosts the website reachable via __www.foobar.com__, it is important to  break down the components and their roles, starting with the user's request to access the website.
 
-User Access Request:
+__User Access Request__:
 
-The user types "www.foobar.com" in their web browser.
-Domain Name and DNS:
+- The user types "www.foobar.com" in their web browser.
 
-A domain name is a human-readable name used to identify a website (e.g., "foobar.com").
-DNS (Domain Name System) is a system that translates domain names into IP addresses.
+__Domain Name and DNS__:
+
+- A domain name is a human-readable name used to identify a website (e.g., "foobar.com").
+
+- DNS (Domain Name System) is a system that translates domain names into IP addresses.
 The domain name "foobar.com" needs to be configured with a "www" record that points to the server's IP address, which in this case is 8.8.8.8.
 The "www" part in www.foobar.com is a DNS record called a subdomain, commonly used for web services.
 Server:
 
-A server is a computer that provides services or resources to other computers (clients) over a network.
+- A server is a computer that provides services or resources to other computers (clients) over a network.
 In this case, we have one server that will handle the website's infrastructure.
 Web Server (Nginx):
 
