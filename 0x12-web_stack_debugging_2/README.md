@@ -10,12 +10,14 @@ It focuses on developing debugging skills in the context of web development.
 The objective of this project is to identify and fix issues 
 in a web server configuration to ensure proper functionality.
 
-## Project Objectives :lightbulb:
+## Project Objectives :boom:
+
 - Understand how to debug and fix issues in a web server configuration.
 - Get familiar with common web server errors and their potential solutions.
 - Gain proficiency in troubleshooting techniques for web development.
 
 ## Project Tasks :page_with_curl:
+
 The project consists of several tasks, each focusing on a specific web server issue. 
 
 These tasks involves debugging the configuration and fixing the issue. These tasks include:
