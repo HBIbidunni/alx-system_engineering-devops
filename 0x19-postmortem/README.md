@@ -13,7 +13,7 @@ Then I spotted the bug: Something was keeping Dbazz Ubuntu container’s Nginx i
 
 When I debugged, the image below  was what I observed;
 
-```server {
+server {
     listen 8080;  // Incorrect port number
  197767-web-01 ubuntu.com;
 
