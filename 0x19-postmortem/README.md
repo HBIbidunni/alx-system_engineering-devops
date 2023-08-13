@@ -25,7 +25,7 @@ When I debugged, the image below  was what I observed;
 upstream backend_servers {
     server 192.168.1.10;
     server 192.168.1.11;
-```}
+}```
 
 which is obviously the wrong configuration for Dbazz Ubuntu container’s Nginx installation which is supposed to be listening on `port 80`. Here, it is listening in `port 8080`.
 The correct configuration is, here it is listening to `port 80`:
@@ -42,7 +42,8 @@ The correct configuration is, here it is listening to `port 80`:
 upstream backend_servers {
     server 192.168.1.10;
     server 192.168.1.11;
-```}
+}```
+
 Here is a Detailed Incident Report (Postmortem) on how the troubleshooting and debugging took place in Dbazz:
 
 Issue Summary: The outage occurred on August 11, 2023, from 10:00 AM to 11:30 AM (UTC). During this period, the Nginx service was unavailable on the Ubuntu server, resulting in a complete disruption of web services. Users experienced slow page loading and were unable to access the Dbazz website hosted on the server. Approximately 85% of users were affected by the downtime.
